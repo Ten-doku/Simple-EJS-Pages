@@ -1,0 +1,22 @@
+{
+    "name": "Restaurant",
+    "description": "Express.js App",
+    "author": "A",
+    "version": "0.0.1",
+    "dependencies": {
+        "node": "*",
+        "express": "*",
+	"mongodb":"*",
+	"assert":"*",
+	"fs":"*",
+	"ejs":"*",
+	"express-formidable":"*",
+	"cookie-session":"*"
+    },
+    "engine": "*",
+    "scripts": {
+	
+        "start": "node server"
+    }
+}
+
