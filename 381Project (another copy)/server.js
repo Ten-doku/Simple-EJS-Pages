@@ -5,7 +5,7 @@ const assert = require('assert');
 const fs = require('fs');
 const formidable = require('express-formidable');
 const session = require('cookie-session');
-//So Many SHIT We Need
+//So Many  We Need
 
 
 const mongourl = '';
@@ -15,7 +15,7 @@ const dbName = '381project'; //remember to change it
 const app = express();
 app.use(formidable());
 
-const SECRETKEY = 'I want to pass COMPS381F';
+const SECRETKEY = '';
 
 app.use(session({
 	name: 'LoggedIn',
